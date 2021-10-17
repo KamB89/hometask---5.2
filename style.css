@@ -1,0 +1,101 @@
+body{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.header{
+    display: flex;
+    background-color: brown;
+    width: 100%;
+    margin-right: 50px;
+    position: sticky;
+    top: 0px;
+    color: white;
+
+}
+.header div{
+    margin-left: 50px;
+    width: 97px;
+    
+    
+}
+
+.header p{
+    text-align: center;
+}
+.header div:hover{
+    background-color: rgb(107, 27, 27);
+}
+
+.main-content{
+    display: flex;
+}
+
+
+
+.text{
+    margin-right: 30px;
+}
+.title:first-child{
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.title:first-child {
+border-bottom: 1px solid rgb(71, 64, 64);
+}
+
+.title p{
+    margin-left: 50px;
+}
+
+.main-text p:first-child {
+    font-size: 0.8em;
+}
+
+
+.image-container{
+    margin-top: 10px;
+    display: flex;
+    border: 1px solid grey;
+    padding: 12px;
+}
+
+.footer{
+    width: 900px;
+}
+
+.img-footer{
+width: 168px;
+height: 230px;
+margin-left: 5px;
+}
+
+
+.image{
+    background-color: rgb(223, 219, 219);
+    height: 520px;
+    padding: 5px;
+}
+
+.image .description div{
+    margin-left: 5px;
+    display: flex;
+    font-size: 0.7em;
+    
+}
+
+.image .description div span{
+margin-top: 16px;
+font-weight: 600;
+
+}
+
+.image .description div p{
+    margin-left: 9px;
+    margin-top: 16px;
+}
+
+.image-container div p{
+    text-align: center;
+}
